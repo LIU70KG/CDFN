@@ -14,7 +14,7 @@ Operation process:
 - 1: Program entrance: folder 'train.py'
  
 	
-- 2: Hyperparameter optimization entrance 'train_optuna.py'
+- 2: Hyperparameter optimization entrance: 'train_optuna.py'
 
 
 ## Dataset
@@ -25,6 +25,9 @@ Operation process:
 Download reference link: https://github.com/declare-lab/MISA
 
 Data Download
+
 Install CMU Multimodal SDK. Ensure, you can perform from mmsdk import mmdatasdk.
+
 Option 1: Download pre-computed splits and place the contents inside datasets folder.
+
 Option 2: Re-create splits by downloading data from MMSDK. For this, simply run the code as detailed next.
