@@ -58,7 +58,7 @@ class MOSI:
             print("SDK path is not specified! Please specify first in constants/paths.py")
             exit(0)
         else:
-            sys.path.append(str(config.sdk_dir))  #添加到 Python 解释器的模块搜索路径中
+            sys.path.append(str(config.sdk_dir))
         
         DATA_PATH = str(config.dataset_dir)
         CACHE_PATH = DATA_PATH + '/embedding_and_mapping.pt'
